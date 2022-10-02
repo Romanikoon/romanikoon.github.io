@@ -1,50 +1,88 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Моё описание</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Julia Turetskova</title>
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 0.6em;
+        margin-bottom: 1em;
+      }
+    </style>
   </head>
   <body>
-    <main>
-      <!-- BEGIN (write your solution here) -->
-      <h1>
-        Еремян Роман Радикович
-        </h1>
-      <h2>
-        Студент, начинающий Верстальщик
-        </h2>
-      <section>
-      <h2>
-        Образование
-        </h2>
-        <ul>
-          <li>11 классов</li>
-          <li>5 курс универа</li>
-          <li>курсы верстальщика</li>
-        </ul>
-      </section>
-      <section>
-      <h2>
-        Навыки
-      </h2>
-      <ul>
-        <li>Умный</li>
-        <li>Красавчик</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-      </section>
-      <section>
-      <h2>
-        Инфо
-        </h2>
-        <p>
-          <a href="https://vk.com/happykisik">Страница вк</a>
-        </p>
-      </section>
-      <!-- END -->
-    </main>
+    <nav class="navbar navbar-expand-lg" style="background-color: #84e6f8">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="JuliaT.png" alt="Logo" height="45" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cats.html">Favorit cats</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <img class="rounded-img" src="img.jpg" alt="My photo" />
+          <h1 class="fw-light">Julia Turetskova</h1>
+          <p class="lead text-muted">
+            Phyhology. asofko ofdgoidfgo sogosdjgisjd sofigjsjpdgs sdgsdgsdg
+            sgsdgjtji gpdofgspfogj sporgjspoj
+          </p>
+          <a
+            href="https://vk.com/turetskovajulia"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            My VK page
+          </a>
+          <a
+            href="https://vk.com/happykisik"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            Roma VK page
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
